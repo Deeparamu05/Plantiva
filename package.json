@@ -1,0 +1,8 @@
+{
+  "name": "plantiva-deployment",
+  "private": true,
+  "scripts": {
+    "install:app": "npm install --prefix plantiva",
+    "build": "npm run build --prefix plantiva"
+  }
+}
