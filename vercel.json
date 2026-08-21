@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
   "installCommand": "cd plantiva && npm ci",
   "buildCommand": "cd plantiva && npm run build",
+=======
+  "buildCommand": "npm run build",
+>>>>>>> 33a0768eb14d729d102046340561556eb980f44d
   "outputDirectory": "plantiva/dist",
   "rewrites": [
     {
