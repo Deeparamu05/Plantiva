@@ -1,0 +1,294 @@
+.success-page {
+  min-height: 100vh;
+  background: #f7faf4;
+  color: #26372b;
+}
+
+/* NAVBAR */
+
+.success-navbar {
+  height: 78px;
+  padding: 0 7%;
+  background: white;
+  border-bottom: 1px solid #e4eae1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.success-logo {
+  text-decoration: none;
+  color: #294b30;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.success-shop {
+  color: #547354;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* MAIN */
+
+.success-main {
+  max-width: 850px;
+  margin: auto;
+  padding: 65px 25px 80px;
+  text-align: center;
+}
+
+/* ICON */
+
+.success-icon {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  border-radius: 50%;
+  background: #dfeede;
+  color: #477047;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.success-label {
+  margin-top: 20px;
+  color: #668563;
+  font-size: 9px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.success-main h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 1.12;
+  color: #29422f;
+  margin: 13px 0;
+}
+
+.success-message {
+  color: #7b867e;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+/* ORDER CARD */
+
+.order-card {
+  background: white;
+  border: 1px solid #e0e7de;
+  border-radius: 15px;
+  margin-top: 40px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.order-card-header {
+  padding: 22px 25px;
+  background: #edf4e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-card-header > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.order-card-header span {
+  color: #879288;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+
+.order-card-header strong {
+  color: #314b36;
+  font-size: 13px;
+}
+
+.order-status {
+  background: #dcebd9;
+  color: #4c724c;
+  padding: 7px 11px;
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.order-details {
+  padding: 22px 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid #e5eae3;
+}
+
+.order-details div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 15px;
+}
+
+.order-details div:not(:last-child) {
+  border-right: 1px solid #e3e8e1;
+  margin-right: 15px;
+}
+
+.order-details span {
+  color: #8a948c;
+  font-size: 9px;
+}
+
+.order-details strong {
+  font-size: 12px;
+}
+
+/* PLANTS */
+
+.ordered-plants {
+  padding: 25px;
+}
+
+.ordered-plants h3 {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.ordered-plant {
+  display: grid;
+  grid-template-columns: 55px 1fr auto;
+  align-items: center;
+  gap: 13px;
+  padding: 10px 0;
+  border-bottom: 1px solid #edf0eb;
+}
+
+.ordered-plant:last-child {
+  border-bottom: none;
+}
+
+.ordered-plant img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.ordered-plant div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ordered-plant div strong {
+  font-size: 11px;
+}
+
+.ordered-plant div span {
+  color: #89938b;
+  font-size: 9px;
+}
+
+.ordered-plant > strong {
+  font-size: 11px;
+}
+
+/* DELIVERY */
+
+.delivery-message {
+  margin: 20px auto;
+  padding: 17px 20px;
+  max-width: 600px;
+  background: #edf4e9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  text-align: left;
+}
+
+.delivery-message > span {
+  font-size: 22px;
+}
+
+.delivery-message strong {
+  font-size: 11px;
+}
+
+.delivery-message p {
+  margin-top: 4px;
+  color: #7e897f;
+  font-size: 9px;
+}
+
+/* BUTTON */
+
+.success-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #3f6845;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.success-button:hover {
+  background: #315737;
+}
+
+.success-tagline {
+  color: #8c978e;
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 22px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .success-navbar {
+    padding: 0 20px;
+  }
+
+  .success-main {
+    padding: 45px 18px;
+  }
+
+  .success-main h1 {
+    font-size: 36px;
+  }
+
+  .order-details {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .order-details div:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #e3e8e1;
+    padding-bottom: 14px;
+    margin-right: 0;
+  }
+
+  .order-card-header {
+    padding: 18px;
+  }
+
+  .ordered-plants {
+    padding: 18px;
+  }
+
+}
